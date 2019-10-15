@@ -1,4 +1,4 @@
-fetch('https://pokeapi.co/api/v2/pokemon/sylveon/')
+fetch('https://pokeapi.co/api/v2/pokemon/glameow/')
 .then( res  => res.json() )
 .then(
     data => {

@@ -10,7 +10,7 @@ html {
     margin-right: auto; */
 }
 
-li a {
+li a:not(.evolution) {
     margin: auto;
     display:block;
 }
@@ -49,5 +49,27 @@ div.card {
     background-color: grey;
     width: 30%;
     height: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    height: 70%;
+    width: 25%;
+    border-radius: 15px;
 }
+
+h1.card-title {
+    padding-top: 20px;
+    font-size: 3em;
+}
+
+a.evolution {
+    /* padding-top: 500px; */
+    color: brown;
+}
+
+/* div.pokemon {
+ 
+} */
+
+/* do something bout media queries */

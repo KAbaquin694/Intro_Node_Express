@@ -1,9 +1,13 @@
+fetch('https://pokeapi.co/api/v2/pokemon/ditto/')
+.then(res => res.json())
+.then(
+    data => {
+    const{...img} = data.sprites;
+    console.log( img.back_default );
+    selector = document.querySelector('.pokemon');
+    pokeIMG = `<img src="${img.front_default}">`;
+    selector.innerHTML = pokeIMG;
+    }
+);
 
-// var express = require('express');
-// var app = express();
-//     var port = 8080;
-//     app.use(express.static(__dirname));
-
-//     app.listen(port, function() {
-//         console.log('Server listening on localhost:%s', port);
-//     });
+// honestly, i have no idea what i am currently doing
