@@ -9,5 +9,3 @@ fetch('https://pokeapi.co/api/v2/pokemon/ditto/')
     selector.innerHTML = pokeIMG;
     }
 );
-
-// honestly, i have no idea what i am currently doing

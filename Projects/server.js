@@ -5,3 +5,9 @@ const port = 8080;
     app.listen(port, function() {
         console.log('listening on', port);
     });
+
+    // app.set('view engine', 'pug');
+
+    // app.get('../', function (req, res) {
+    //     res.render('index', { title: 'Hey', message: 'Hello there!' })
+    //   });

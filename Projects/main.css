@@ -10,6 +10,16 @@ html {
     margin-right: auto; */
 }
 
+body {
+    /* width: 90%; */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(190, 190, 190);
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
 li a:not(.evolution) {
     margin: auto;
     display:block;
@@ -18,6 +28,26 @@ li a:not(.evolution) {
 a {
     text-decoration: none;
     text-align: center;
+}
+
+a.k {
+    color: rgb(169, 95, 238);
+}
+
+a.m {
+    color: rgb(255, 102, 0);
+}
+
+a.l {
+   color: rgb(78, 76, 76); 
+}
+
+a.g {
+    color: rgb(80, 120, 133); 
+}
+
+a.s {
+    color: rgb(255, 255, 255);
 }
 
 li {
@@ -29,19 +59,9 @@ li {
 
 nav { 
     display: block;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     height: 5%;
-    background-color: rgb(155, 155, 219);
-}
-
-body {
-    /* width: 90%; */
-    width: 100%;
-    height: 100%;
-    background-color: rgb(190, 190, 190);
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin: auto;
+    /* background-color: rgb(155, 155, 219); */
 }
 
 div.card {
@@ -57,6 +77,10 @@ div.card {
     width: 25%;
     border-radius: 15px;
 }
+
+/* div.pokemon {
+
+} */
 
 h1.card-title {
     padding-top: 20px;
